@@ -1,0 +1,35 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 1rem 0 0 0;
+  background: #1a1a1a5e;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.418rem;
+  padding: 0 1.618rem;
+  border-radius: 1rem;
+  height: 4rem;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.618rem;
+  margin: 1rem 0 0 0;
+}
+
+.point {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #646cff;
+  will-change: transform;
+}
